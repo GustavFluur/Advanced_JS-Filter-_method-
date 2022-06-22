@@ -21,6 +21,9 @@ const people = [
   },
 ];
 
+const oldEnough = people.filter(person => person.age >= 21)
+                                //Greater than equal to 21 (as a reminder).
+console.log(oldEnough);
 
 // Complex Filtering
 const students = [
